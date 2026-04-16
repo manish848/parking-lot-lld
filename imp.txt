@@ -1,0 +1,17 @@
+Lombok dependency add karo (agar Maven use karega to better)
+Simple use:
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+class Vehicle {
+    private String number;
+}
+
+👉 Automatically getter/setter generate ho jayega 💯
+
+⚠️ Agar Lombok nahi use karna
+VS Code shortcut:
+
+👉 Right click → Source Action → Generate Getters/Setters
